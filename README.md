@@ -20,6 +20,12 @@ while people were exercising and does the following.
    set with the average of each variable for each activity and each 
    subject.
 
+#Dependencies
+The run_analysis() script is dependent on the dplyr package. If you do not already have dplyr installed, do the following:
+
+> install.packages("dplyr")
+> library("dplyr")
+
 #How To
 The first thing you need to do to run the run_analysis() scriptt is to source the file into your R environment:
 
